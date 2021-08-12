@@ -13,4 +13,4 @@
         var: ansible_facts['env']['VMWARE_HOST']
     - name: Print all available facts02
       debug:
-        var: environment['VMWARE_HOST']        
+        var: environment
