@@ -1,6 +1,6 @@
 ---
 - name: Check connectivity to remote servers
-  hosts: localhost #servergroup01
+  hosts: web
   gather_facts: True
   tasks:
     - name: ping
