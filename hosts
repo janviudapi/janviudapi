@@ -11,8 +11,8 @@ web01
 web02
 
 [app]
-app01
-app02
+app01  ansible_ssh_host=192.168.5.40
+app02  ansible_ssh_host=192.168.5.40
 
 [db]
 db01
